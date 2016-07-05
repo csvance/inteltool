@@ -17,3 +17,7 @@ The tool may need some newer data imported into it to be useful, but most of wha
 - Python3.X
 - SQLAlchemy
 - openpyxl
+
+
+[eve]: https://www.eveonline.com
+[inteltool]: https://github.com/csvance/inteltool
