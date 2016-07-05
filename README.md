@@ -1,4 +1,19 @@
-# Intel Tool
+# Description
 
-This is a project I worked on a while back which was used for gathering intelligence on enemy EVE corporations and alliances in lowsec. Information is scraped from the killboard and then processed through a number of reports, outputing information about enemy activity and effectiveness levels over time.
-There is also an economic portion to this if you are interested in playing the lowsec market. A report was designed to get the top number of items lost in a region. By identifying the most used items in different categories and importing them it is possible to make a nice profit.
+[inteltool][inteltool] was designed to scrape all data from publicly available killboards into a database and run various reports / analysis on the data. The purpose of most of this was to understand an enemy corporation / alliance in several ways:
+
+- General online times / activity
+- Capital online times / activity
+- Average gang size
+- Identification of Cyno bait / blingy tackles
+- Hotdrop peak times
+
+The tool was also expanded to gain an economic understanding of what items would be in demand the most in a region with the data provided on the killboard. This could then be used to import items to tradehubs for an often solid profit margin.
+
+The tool may need some newer data imported into it to be useful, but most of what is needed to do basic scraping, importing and analysis is already available.
+
+# Dependencies
+
+- Python3.X
+- SQLAlchemy
+- openpyxl
